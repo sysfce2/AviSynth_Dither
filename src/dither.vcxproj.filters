@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="conc">
+      <UniqueIdentifier>{59f22e10-b3da-4b1a-a90a-ad667c48d28d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffft">
+      <UniqueIdentifier>{3d01d84b-3d24-497f-b264-69570685eef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fstb">
+      <UniqueIdentifier>{453b9b0c-5ad4-473f-8f7f-50e7b518dec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fmtcl">
+      <UniqueIdentifier>{aff8d490-3860-43d0-9e26-c9a073b42509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fstb\txt">
+      <UniqueIdentifier>{6d3693e1-8faa-47f3-9616-6b37bfbc7d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fstb\txt\neutral">
+      <UniqueIdentifier>{a2feed9d-847d-47d8-b0d8-8e40e6f96790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fstb\txt\unicode">
+      <UniqueIdentifier>{7ede2957-f265-4c33-9b18-e18c281692a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fstb\txt\utf8">
+      <UniqueIdentifier>{93143abf-1d2a-4443-8f72-e5fa9f4ec53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fstb\txt\utf16">
+      <UniqueIdentifier>{8dc43cbc-5932-4c56-9df4-30d1e2cdf6e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="conc\AioAdd.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AioAdd.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AioMax.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AioMax.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AioSub.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AioSub.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AtomicInt.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AtomicInt.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AtomicIntOp.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AtomicIntOp.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AtomicMem.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AtomicMem.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AtomicPtr.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AtomicPtr.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AtomicPtrIntPair.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\AtomicPtrIntPair.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\CellPool.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\CellPool.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\def.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\fnc.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\fnc.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\Interlocked.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\Interlocked.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\LockFreeCell.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\LockFreeQueue.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\LockFreeQueue.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\LockFreeStack.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\LockFreeStack.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\ObjFactoryDef.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\ObjFactoryDef.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\ObjFactoryInterface.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\ObjFactoryInterface.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\ObjPool.h">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="conc\ObjPool.hpp">
+      <Filter>conc</Filter>
+    </ClInclude>
+    <ClInclude Include="ffft\def.h">
+      <Filter>ffft</Filter>
+    </ClInclude>
+    <ClInclude Include="ffft\FFTReal.h">
+      <Filter>ffft</Filter>
+    </ClInclude>
+    <ClInclude Include="ffft\FFTReal.hpp">
+      <Filter>ffft</Filter>
+    </ClInclude>
+    <ClInclude Include="ffft\OscSinCos.h">
+      <Filter>ffft</Filter>
+    </ClInclude>
+    <ClInclude Include="ffft\OscSinCos.hpp">
+      <Filter>ffft</Filter>
+    </ClInclude>
+    <ClInclude Include="avisynth.h" />
+    <ClInclude Include="AvsFilterAdd16.h" />
+    <ClInclude Include="AvsFilterBilateral16.h" />
+    <ClInclude Include="AvsFilterBoxFilter16.h" />
+    <ClInclude Include="AvsFilterDitherPost.h" />
+    <ClInclude Include="AvsFilterLimitDif16.h" />
+    <ClInclude Include="AvsFilterMaxDif16.h" />
+    <ClInclude Include="AvsFilterMedian16.h" />
+    <ClInclude Include="AvsFilterMerge16.h" />
+    <ClInclude Include="AvsFilterOut.h" />
+    <ClInclude Include="AvsFilterRemoveGrain16.h" />
+    <ClInclude Include="AvsFilterRepair16.h" />
+    <ClInclude Include="AvsFilterResize16.h" />
+    <ClInclude Include="AvsFilterSmoothGrad.h" />
+    <ClInclude Include="avstp.h" />
+    <ClInclude Include="AvstpFinder.h" />
+    <ClInclude Include="AvstpWrapper.h" />
+    <ClInclude Include="BilatData.h" />
+    <ClInclude Include="BilatDataFactory.h" />
+    <ClInclude Include="Borrower.h" />
+    <ClInclude Include="Borrower.hpp" />
+    <ClInclude Include="BoxFilter.h" />
+    <ClInclude Include="BoxFilter.hpp" />
+    <ClInclude Include="DiffSoftClipper.h" />
+    <ClInclude Include="DiffSoftClipper.hpp" />
+    <ClInclude Include="FilterBilateral.h" />
+    <ClInclude Include="MTSlicer.h" />
+    <ClInclude Include="MTSlicer.hpp" />
+    <ClInclude Include="PlaneProcCbInterface.h" />
+    <ClInclude Include="PlaneProcessor.h" />
+    <ClInclude Include="PlaneProcMode.h" />
+    <ClInclude Include="RndGen.h" />
+    <ClInclude Include="RndGen.hpp" />
+    <ClInclude Include="fstb\AllocAlign.h">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\AllocAlign.hpp">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\def.h">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\fnc.h">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\fnc.hpp">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\ToolsSse2.h">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\ToolsSse2.hpp">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\BitBltConv.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ChromaPlacement.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ColorSpaceH265.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirBlackman.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirBlackmanMinLobe.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirCubic.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirFromDiscrete.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirGauss.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirInterface.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirLanczos.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirLinear.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirRect.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirSinc.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirSnh.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirSpline.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirSpline16.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirSpline36.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ContFirSpline64.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\DiscreteFirCustom.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\DiscreteFirInterface.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ErrDifBuf.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ErrDifBuf.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ErrDifBufFactory.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\FilterResize.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\KernelData.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\Proxy.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\Proxy.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ProxyRwCpp.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ProxyRwCpp.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ResampleSpecPlane.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ResizeData.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ResizeData.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ResizeDataFactory.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\Scaler.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\SplFmt.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\SplFmt.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\CpuId.h">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\ToolsAvx2.h">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\ToolsAvx2.hpp">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ProxyRwAvx2.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ScalerCopy.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ProxyRwAvx2.hpp" />
+    <ClInclude Include="fmtcl\CoefArrInt.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\CoefArrInt.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\ArrayAlign.h">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\ArrayAlign.hpp">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ArrayMultiType.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ArrayMultiType.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ColorFamily.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\fnc.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\Mat4.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\Mat4.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\Matrix2020CLProc.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\Matrix2020CLProc_macro.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\MatrixProc.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\MatrixProc_macro.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\MatrixWrap.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\MatrixWrap.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ProxyRwSse2.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ProxyRwSse2.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ReadWrapperFlt.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ReadWrapperFlt.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ReadWrapperInt.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\ReadWrapperInt.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransCurve.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransLut.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOp2084.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpAffine.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpBypass.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpCanonLog.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpCompose.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpCompose.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpContrast.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpContrast.hpp">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpFilmStream.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpInterface.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpLinPow.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpLogC.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpLogTrunc.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpPow.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\TransOpSLog.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtcl\VoidAndCluster.h">
+      <Filter>fmtcl</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\SingleObj.h">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\SingleObj.hpp">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\Err.h">
+      <Filter>fstb</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\Char16.h">
+      <Filter>fstb\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\Conv.h">
+      <Filter>fstb\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\Conv.hpp">
+      <Filter>fstb\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\neutral\ConvDigit.h">
+      <Filter>fstb\txt\neutral</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\neutral\ConvDigit.hpp">
+      <Filter>fstb\txt\neutral</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\neutral\fnc.h">
+      <Filter>fstb\txt\neutral</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\neutral\fnc.hpp">
+      <Filter>fstb\txt\neutral</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\utf16\Codec16.h">
+      <Filter>fstb\txt\utf16</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\utf16\Codec16.hpp">
+      <Filter>fstb\txt\utf16</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\utf16\def.h">
+      <Filter>fstb\txt\utf16</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\utf16\utf16_fnc.h">
+      <Filter>fstb\txt\utf16</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\utf8\Codec8.h">
+      <Filter>fstb\txt\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\utf8\ConvNum.h">
+      <Filter>fstb\txt\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\utf8\def.h">
+      <Filter>fstb\txt\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\utf8\fnc.h">
+      <Filter>fstb\txt\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\utf8\PredStringCiEq.h">
+      <Filter>fstb\txt\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\utf8\PredStringCiEq.hpp">
+      <Filter>fstb\txt\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\utf8\PredStringCiLt.h">
+      <Filter>fstb\txt\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\utf8\PredStringCiLt.hpp">
+      <Filter>fstb\txt\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\BidiClass.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\Categ.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\Categ.hpp">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\CategClass.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\CharData.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\CharDataInfo.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\CharDataInfo.hpp">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\ConvCi.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\ConvCi.hpp">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\ConvNeutral.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\ConvNeutral.hpp">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\GraphemeBreakProp.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\LineBreakAction.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\LineBreakProp.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\PredEq.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\PredEq.hpp">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\PredLt.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\PredLt.hpp">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\unicode.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\unicode.hpp">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\WordBreakProp.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\WordBreakPropTableNext.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+    <ClInclude Include="fstb\txt\unicode\WordBreakPropTablePrev.h">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AvsFilterAdd16.cpp" />
+    <ClCompile Include="AvsFilterBilateral16.cpp" />
+    <ClCompile Include="AvsFilterBoxFilter16.cpp" />
+    <ClCompile Include="AvsFilterDitherPost.cpp" />
+    <ClCompile Include="AvsFilterInit.cpp" />
+    <ClCompile Include="AvsFilterLimitDif16.cpp" />
+    <ClCompile Include="AvsFilterMaxDif16.cpp" />
+    <ClCompile Include="AvsFilterMedian16.cpp" />
+    <ClCompile Include="AvsFilterMerge16.cpp" />
+    <ClCompile Include="AvsFilterOut.cpp" />
+    <ClCompile Include="AvsFilterRemoveGrain16.cpp" />
+    <ClCompile Include="AvsFilterRepair16.cpp" />
+    <ClCompile Include="AvsFilterResize16.cpp" />
+    <ClCompile Include="AvsFilterSmoothGrad.cpp" />
+    <ClCompile Include="AvstpFinder.cpp" />
+    <ClCompile Include="AvstpWrapper.cpp" />
+    <ClCompile Include="BilatData.cpp" />
+    <ClCompile Include="BilatDataFactory.cpp" />
+    <ClCompile Include="BoxFilter.cpp" />
+    <ClCompile Include="FilterBilateral.cpp" />
+    <ClCompile Include="PlaneProcCbInterface.cpp" />
+    <ClCompile Include="PlaneProcessor.cpp" />
+    <ClCompile Include="fstb\ToolsSse2.cpp">
+      <Filter>fstb</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\BitBltConv.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirBlackman.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirBlackmanMinLobe.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirCubic.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirFromDiscrete.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirGauss.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirInterface.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirLanczos.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirLinear.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirRect.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirSinc.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirSnh.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirSpline.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirSpline16.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirSpline36.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ContFirSpline64.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\DiscreteFirCustom.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\DiscreteFirInterface.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ErrDifBuf.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ErrDifBufFactory.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\FilterResize.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\KernelData.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ResampleSpecPlane.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ResizeData.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ResizeDataFactory.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\Scaler.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fstb\CpuId.cpp">
+      <Filter>fstb</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ChromaPlacement.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fstb\ToolsAvx2.cpp">
+      <Filter>fstb</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\Scaler_avx2.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="AvsFilterAdd16_avx2.cpp" />
+    <ClCompile Include="AvsFilterLimitDif16_avx2.cpp" />
+    <ClCompile Include="AvsFilterMedian16_avx2.cpp" />
+    <ClCompile Include="AvsFilterMaxDif16_avx2.cpp" />
+    <ClCompile Include="fmtcl\BitBltConv_avx2.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\CoefArrInt.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\ArrayMultiType.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\fnc.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\Matrix2020CLProc.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\MatrixProc.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\MatrixProc_avx.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\MatrixProc_avx2.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\TransLut.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\TransLut_avx2.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\TransOp2084.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\TransOpAffine.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\TransOpCanonLog.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\TransOpFilmStream.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\TransOpLinPow.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\TransOpLogC.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\TransOpLogTrunc.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\TransOpPow.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\TransOpSLog.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtcl\VoidAndCluster.cpp">
+      <Filter>fmtcl</Filter>
+    </ClCompile>
+    <ClCompile Include="fstb\fnc_fstb.cpp">
+      <Filter>fstb</Filter>
+    </ClCompile>
+    <ClCompile Include="fstb\txt\neutral\fnc_neutral.cpp">
+      <Filter>fstb\txt\neutral</Filter>
+    </ClCompile>
+    <ClCompile Include="fstb\txt\utf16\utf16_fnc.cpp">
+      <Filter>fstb\txt\utf16</Filter>
+    </ClCompile>
+    <ClCompile Include="fstb\txt\utf8\Codec8.cpp">
+      <Filter>fstb\txt\utf8</Filter>
+    </ClCompile>
+    <ClCompile Include="fstb\txt\utf8\ConvNum.cpp">
+      <Filter>fstb\txt\utf8</Filter>
+    </ClCompile>
+    <ClCompile Include="fstb\txt\utf8\def.cpp">
+      <Filter>fstb\txt\utf8</Filter>
+    </ClCompile>
+    <ClCompile Include="fstb\txt\utf8\fnc_utf8.cpp">
+      <Filter>fstb\txt\utf8</Filter>
+    </ClCompile>
+    <ClCompile Include="fstb\txt\unicode\CharData.cpp">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClCompile>
+    <ClCompile Include="fstb\txt\unicode\unicode.cpp">
+      <Filter>fstb\txt\unicode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fmtcl\fmtcl.vcxproj.filters">
+      <Filter>fmtcl</Filter>
+    </None>
+  </ItemGroup>
+</Project>
